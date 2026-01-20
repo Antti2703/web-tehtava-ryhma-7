@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+
+
+/**Muokataan headerin otsikon paikkaa ja listanäkymää**/
+
+header h1{
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+nav ul li{
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding:14px 14px;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: gray;
+    color: white;
+    padding: 50px;
+    border-top: 1px solid #eded;
+    margin-top: 15px;
+    text-align: center;
+    clear: both;
+    float: none;
+}
