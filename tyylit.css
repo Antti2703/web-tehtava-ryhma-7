@@ -10,7 +10,7 @@
 /**Muokataan headerin otsikon paikkaa ja listanäkymää**/
 
 header h1{
-
+ margin: 0;
 }
 
 header {
