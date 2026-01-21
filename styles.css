@@ -66,25 +66,25 @@ p{
 
 .buttons{
     display: flex;
-    gap: 60px;
-    margin-top: 40px;
+    gap: 30px;
+    margin-top: 20px;
 }
 
 button{
-
-    background-color: #007BFF;
+    background-color: oklch(38.811% 0.262 276.966);
     color: #fff;
     border: none;
-    padding: 20px 20px;
+    padding: 16px 24px;
     cursor: pointer;
     font-size: 1em;
-    text-transform: uppercase;
-    border-radius: 10px;
+    text-transform: none;
+    border-radius: 15px;
 }
 
 .white{
-    background-color: brown;
-    border: solid purple;
+    background-color: white;
+    border: solid oklch(38.811% 0.262 276.966);
+    color: oklch(38.811% 0.262 276.966);
 }
 
 /*Footer osuudet*/
