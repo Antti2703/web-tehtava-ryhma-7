@@ -36,7 +36,7 @@ nav ul li{
 nav ul li a{
     color: #333;
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 section{
@@ -54,7 +54,7 @@ figure.kuva{
     float: right;
 }
 
-h1 {
+h1{
     font-size: 1.7em;
     text-transform: uppercase;
 }
@@ -103,8 +103,7 @@ footer{
 }
 
 .footer-column h3{
-    margin-right: 100px;
-    margin-left: 40px;
+    margin: 0 0 12px 0;
 }
 
 .footer-column ul{
@@ -112,4 +111,14 @@ footer{
     list-style: none;
     line-height: 1.6em;
     font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+
+footer p{
+    margin: 6px 0;
+}
+
+.footer-column li{
+    margin: 6px 0;
 }
