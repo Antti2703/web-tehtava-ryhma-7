@@ -3,50 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="tyylit.css">
-    
-    <title>Sivusto X</title>
-
+    <link rel="stylesheet" href="styles.css">
+    <title>NordicTechStore | Etusivu</title>
 </head>
 <body>
     <header>
-        <img src="#" alt="Firman Logo">
-        <h1></h1>
+        <a href="index.html">
+            <img src="Logo.png" alt="Logo" class="logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="#">Tuotteet</a></li>
+                <li><a href="#">Meistä</a></li>
+                <li><a href="#">Yhteystiedot</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li> <a href="#"> Etusivu </a></li>
-            <li> <a href="#"> Tuotteet </a></li>
-            <li> <a href="#"> Meistä </a></li>
-            <li> <a href="#"> Yhteystiedot </a></li>
-        </ul>
-    </nav>
+    <main>
+        <section>
+            <h1>Teknologia-alan Verkkokauppa</h1>
+            <article>
+                <p>Löydä parhaat teknologiatuotteet edulliseen hintaan. Nopea toimitus ja erinomainen asiakaspalvelu.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio doloremque iusto excepturi amet ipsam dolorem hic quo doloribus, veritatis earum! Nemo ipsum eligendi quis, perferendis quisquam doloribus officiis delectus!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae amet doloribus nulla odit exercitationem voluptatem ratione consequuntur sint est dolorum dicta repellat placeat fugiat quaerat officia quos soluta, recusandae ducimus?</p>
 
-    <section>
-        <h2> </h2>
-        <p></p>
-    </section>
+                <div class="buttons">
+                <button type="button"> Tutustu tuotteisiin</button>
+                <button type="button" class="white"> Lue lisää</button>
+                </div>
 
-    <article>
-        <img src="#" alt="ikoni">
-        <h3>Otsikko 1</h3>
-        <p></p>
-    </article>
+            </article>
+            <figure class="kuva">
+                <img src="Logo.png" alt="Logo">
+            </figure>
 
-    <article>
-        <img src="#" alt="ikoni">
-        <h3>Otsikko 1</h3>
-        <p></p>
-    </article>
-    
-    <article>
-        <img src="#" alt="ikoni">
-        <h3>Otsikko 1</h3>
-        <p></p>
-    </article>
+        </section>
 
-    <footer> <p> © 2026 esimerkkisivusto</p></footer>
+        <section>
+            <blockquote>
+                <p>Nopea toimitus</p>
+            </blockquote>
+
+            <blockquote>
+                <p>Turvallinen maksu</p>
+            </blockquote>
+
+            <blockquote>
+                <p>Asiakastuki</p>
+            </blockquote>
+
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h2>NordicTechStore</h2>
+            <p>Teknologia-alan johtava verkkokauppa Suomessa.<br>Tarjoamme laadukkaita tuotteita kilpailukykyiseen hintaan.</p>
+        </div>
+        <div>
+            <h2>Linkit</h2>
+            <ul>
+                <li>Etusivu</li>
+                <li>Tuotteet</li>
+                <li>Meistä</li>
+                <li>Yhteystiedot</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Yhteystiedot</h2>
+            <p>Ota yhteyttä asiakaspalveluumme.</p>
+            <p>info@techstore.fi</p>
+            <p>Puh: +358 40 123 4567</p>
+            <p>Ma-Pe 9:00-17:00</p>
+
+        </div>       
+    </footer>
 </body>
 </html>
