@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="styles.css">
     <title>NordicTechStore | Etusivu</title>
 </head>
-<body>
+<body class="etusivu">
     <header>
-        <a href="index.html">
-            <img src="Logo.png" alt="Logo" class="logo">
-        </a>
+        <div class="site-title">
+            NordicTechStore
+        </div>
 
         <nav>
             <ul>
@@ -23,23 +23,25 @@
     </header>
 
     <main>
-        <section>
+        <section class="hero">
+            <div class="hero-inner">
+                <div class="hero-text">
             <h1>Teknologia-alan Verkkokauppa</h1>
             <article>
-                <p>Löydä parhaat teknologiatuotteet edulliseen hintaan. Nopea toimitus ja erinomainen asiakaspalvelu.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio doloremque iusto excepturi amet ipsam dolorem hic quo doloribus, veritatis earum! Nemo ipsum eligendi quis, perferendis quisquam doloribus officiis delectus!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae amet doloribus nulla odit exercitationem voluptatem ratione consequuntur sint est dolorum dicta repellat placeat fugiat quaerat officia quos soluta, recusandae ducimus?</p>
+                <p>Löydä parhaat teknologiatuotteet edulliseen hintaan. Nopea<br>ja erinomainen asiakaspalvelu.</p>
 
                 <div class="buttons">
                 <button type="button"> Tutustu tuotteisiin</button>
                 <button type="button" class="white"> Lue lisää</button>
                 </div>
-
             </article>
-            <figure class="kuva">
+            </div>
+
+            <figure class="kuva hero-image">
                 <img src="Logo.png" alt="Logo">
             </figure>
 
+            </div>
         </section>
 
         <section class="features">
@@ -69,6 +71,7 @@
     </main>
 
     <footer>
+        <div class="footer-inner">
         <div class="footer-column">
             <h3>NordicTechStore</h3>
             <p>Teknologia-alan johtava verkkokauppa Suomessa.<br>Tarjoamme laadukkaita tuotteita kilpailukykyiseen<br>hintaan.</p>
@@ -82,13 +85,14 @@
                 <li><a href="#">Yhteystiedot</a></li>
             </ul>
         </div>
+
         <div class="footer-column">
             <h3>Yhteystiedot</h3>
             <p>Ota yhteyttä asiakaspalveluumme.</p>
             <p>info@techstore.fi</p>
             <p>Puh: +358 40 123 4567</p>
             <p>Ma-Pe 9:00-17:00</p>
-
+        </div>
         </div>       
     </footer>
 </body>
