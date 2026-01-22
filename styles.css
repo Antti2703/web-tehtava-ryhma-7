@@ -23,7 +23,6 @@ nav{
 }
 
 nav ul{
-
     list-style: none;
     margin: 0;
     padding: 0;
@@ -125,11 +124,6 @@ button{
     color: oklch(38.811% 0.262 276.966);
 }
 
-
-
-
-
-
 /*Blockquote osuudet*/
 .quote{
     font-weight: bold;
@@ -175,9 +169,6 @@ blockquote p{
     padding: 16px;
 }
 
-
-
-
 /*Footer osuudet*/
 footer{
     background-color: oklch(25.41% 0.04872 263.199);
@@ -220,4 +211,99 @@ footer{
 
 footer p{
     margin: 6px 0;
+}
+
+/* Mobiili osuus */
+@media (max-width: 900px){
+
+  header{
+    height: auto;
+    padding: 16px 12px;
+    overflow: visible;
+  }
+
+  .site-title{
+    float: none;
+    margin: 0;
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  nav{
+    float: none;
+    margin: 12px 0 0 0;
+  }
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  nav ul li{
+    display: inline;
+    margin-left: 0;
+  }
+
+  nav ul li a{
+    font-size: 1em;
+    padding: 8px 10px;
+  }
+
+  .hero{
+    padding: 40px 0;
+  }
+
+  .hero-inner{
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .hero-text{
+    max-width: 100%;
+  }
+
+  h1{
+    font-size: 1.4em;
+  }
+
+  .buttons{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  button{
+    padding: 12px 16px;
+  }
+
+  .hero-image img{
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .features{
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .features blockquote{
+    padding: 12px;
+  }
+
+  footer{
+    padding: 50px 0;
+  }
+
+  .footer-inner{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-column ul{
+    font-size: 1.1em;
+  }
 }
