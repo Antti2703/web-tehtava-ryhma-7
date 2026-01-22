@@ -1,23 +1,25 @@
 body{
-    max-width: 1280px;
     margin: 0 auto;
     padding: 10px;
 }
 
 header {
-    height: 200px;
+    height: 120px;
     overflow: hidden; /* Clear floats */
-    padding: 10px 0 0 0;
+    padding: 0 40px;
 }
 
-img.logo{
+.site-title{
     float: left;
-    margin-left: 0px;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 640px;
 }
 
 nav{
     float: right;
-    margin: 70px 50px 0 0;
+    margin: 40px 500px 0 0;
 }
 
 nav ul{
@@ -64,6 +66,42 @@ p{
     line-height: 1.5em;
 }
 
+.hero{
+    background-color: #eef3ff;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.hero-inner{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.hero-text{
+    max-width: 520px;
+}
+
+.hero .hero-text article{
+    float: none;
+    width: auto;
+    margin-right: 0;
+}
+
+.hero .kuva{
+    float: none;
+}
+
+.hero-image img{
+    width: 520px;
+    height: auto;
+    display: block;
+}
+
 .buttons{
     display: flex;
     gap: 30px;
@@ -87,14 +125,20 @@ button{
     color: oklch(38.811% 0.262 276.966);
 }
 
+
+
+
+
+
 /*Blockquote osuudet*/
 .quote{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 figcaption{
     font-size: 1.2em;
+    line-height: 1.4;
 }
 
 blockquote{
@@ -136,39 +180,44 @@ blockquote p{
 
 /*Footer osuudet*/
 footer{
-    display: flex;
-    padding: 20px 0 0 0;
-    border-top: 1px solid gray;
-    margin-bottom: 80px;
     background-color: oklch(25.41% 0.04872 263.199);
+    border-top: 1px solid gray;
+    width: 100%;
+    padding: 120px 0;
+}
+
+.footer-inner{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    gap: 80px;
 }
 
 .footer-column{
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
-    margin-left: 80px;
     color: oklch(.707 .022 261.325);
+    flex: 1;
 }
 
 .footer-column h3{
-    margin: 0 0 12px 0;
+    margin: 0 0 8px 0;
     color: oklch(100% 0.00011 271.152);
 }
 
 .footer-column ul{
-
     list-style: none;
-    line-height: 1.6em;
-    font-size: 1.2em;
     padding: 0;
     margin: 0;
-}
-
-footer p{
-    margin: 6px 0;
+    line-height: 1.6em;
+    font-size: 1.2em;
 }
 
 .footer-column li{
+    margin: 6px 0;
+}
+
+footer p{
     margin: 6px 0;
 }
