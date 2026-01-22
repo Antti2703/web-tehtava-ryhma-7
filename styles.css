@@ -87,12 +87,64 @@ button{
     color: oklch(38.811% 0.262 276.966);
 }
 
+/*Blockquote osuudet*/
+section{
+    overflow: hidden;
+}
+
+.quote{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+figcaption{
+    font-size: 1.2em;
+}
+
+blockquote{
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+blockquote figure{
+    margin: 0;
+}
+
+blockquote figcaption{
+    margin: 0;
+    margin-top: 0;
+}
+
+blockquote p{
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.features{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.features blockquote{
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+
+
+
 /*Footer osuudet*/
 footer{
     display: flex;
     padding: 20px 0 0 0;
     border-top: 1px solid gray;
     margin-bottom: 80px;
+    background-color: oklch(25.41% 0.04872 263.199);
 }
 
 .footer-column{
@@ -100,10 +152,12 @@ footer{
     flex-direction: column;
     margin-right: 50px;
     margin-left: 80px;
+    color: oklch(.707 .022 261.325);
 }
 
 .footer-column h3{
     margin: 0 0 12px 0;
+    color: oklch(100% 0.00011 271.152);
 }
 
 .footer-column ul{
