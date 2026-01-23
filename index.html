@@ -3,52 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="tyylit.css">
-    <link rel="icon" type="image/x-icon" href="Title icon.ico">
-
-    <title>NordicTechStore</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>NordicTechStore | Etusivu</title>
 </head>
-<body>
+<body class="etusivu">
     <header>
-        <img src="Logo.png" alt="Firman Logo">
-        <h1></h1>
+        <div class="site-title">
+            NordicTechStore
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="#">Tuotteet</a></li>
+                <li><a href="#">Meistä</a></li>
+                <li><a href="#">Yhteystiedot</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li> <a href="index.html"> Etusivu </a></li>
-            <li> <a href="tuotteet.html"> Tuotteet </a></li>
-            <li> <a href="yritys.html"> Yritys </a></li>
-            <li> <a href="yhteystiedot.html"> Yhteystiedot </a></li>
-        </ul>
-    </nav>
+    <main>
+        <section class="hero">
+            <div class="hero-inner">
+                <div class="hero-text">
+            <h1>Teknologia-alan Verkkokauppa</h1>
+            <article>
+                <p>Löydä parhaat teknologiatuotteet edulliseen hintaan. Nopea<br>ja erinomainen asiakaspalvelu.</p>
 
-<h2 class="tuotetitle">Suositut Tuotteet</h2>
+                <div class="buttons">
+                <button type="button"> Tutustu tuotteisiin</button>
+                <button type="button" class="white"> Lue lisää</button>
+                </div>
+            </article>
+            </div>
 
-<section class="products">
-  <div class="product">
-    <h3>Kannettava tietokone</h3>
-    <img src="Compaq_Contura_Aero_4-33C_(5069156701).png" alt="Tuote 1">
-    <p>Tehokas ja laadukas tietokone toimistokäyttöön</p>
-    <p>Hinta: 1 450,05 €</p>
-  </div>
-  <div class="product">
-    <h3>Bluetooth-Kaiutin.</h3>
-    <img src="51nYXy+rgoL._SL500_.jpg" alt="Tuote 2">
-    <p>Rämisevä kaiutin hyvään hintaan!</p>
-    <p>Hinta: 199,69 €</p>
-  </div>
+            <figure class="kuva hero-image">
+                <img src="Logo.png" alt="Logo">
+            </figure>
 
-  <div class="product">
-    <h3>Älykello.</h3>
-    <img src="8-1410354623-DKyv-column-width-inline.jpg" alt="Tuote 2">
-    <p>Tehokas ja monipuolinen kello aktiiviseen elämään!</p>
-    <p>Hinta: 399,97 €</p>
-  </div>
-</section>
+            </div>
+        </section>
 
+        <section class="features">
+            <h2></h2>
+            <blockquote>
+                <p class="quote">Nopea toimitus</p>
+                <figure>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+                </figure>
+            </blockquote>
 
-    <footer> <p> © 2026 esimerkkisivusto</p></footer>
+            <blockquote>
+                <p class="quote">Turvallinen maksu</p>
+                 <figure>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+                </figure>
+            </blockquote>
+
+            <blockquote>
+                <p class="quote">Asiakastuki</p>
+                <figure>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+                </figure>
+            </blockquote>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+        <div class="footer-column">
+            <h3>NordicTechStore</h3>
+            <p>Teknologia-alan johtava verkkokauppa Suomessa.<br>Tarjoamme laadukkaita tuotteita kilpailukykyiseen<br>hintaan.</p>
+        </div>
+        <div class="footer-column">
+            <h3>Linkit</h3>
+            <ul>
+                <li><a href="#">Etusivu</a></li>
+                <li><a href="#">Tuotteet</a></li>
+                <li><a href="#">Meistä</a></li>
+                <li><a href="#">Yhteystiedot</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Yhteystiedot</h3>
+            <p>Ota yhteyttä asiakaspalveluumme.</p>
+            <p>info@techstore.fi</p>
+            <p>Puh: +358 40 123 4567</p>
+            <p>Ma-Pe 9:00-17:00</p>
+        </div>
+        </div>       
+    </footer>
 </body>
 </html>
