@@ -1,26 +1,33 @@
-
-
-
-
-
-
-
-
-
-/**Muokataan headerin otsikon paikkaa ja listanäkymää**/
-
-header h1{
- margin: 0;
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
 }
 
+/* HEADER */
 header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+
     display: flex;
     align-items: center;
-    justify-content: center; /* Keskittää */
-    flex-direction: column;  /* <-- Asettaa logon ja tekstin päällekkäin */
+    justify-content: center;
+    flex-direction: column;
 }
 
-nav ul{
+header h1 {
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+
+/* NAVIGAATIO */
+nav {
+    background-color: #34495e; 
+}
+
+nav ul {
     display: flex;
     gap: 20px;
     list-style: none;
@@ -28,28 +35,27 @@ nav ul{
     padding: 0;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap; 
 }
 
-
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     display: block;
-    padding:14px 14px;
-    font-size: 1.2em;
-    align-items: center;
-    justify-content: center;
+    padding: 15px 20px;
+    font-size: 1.1em;
+    color: white; 
+    transition: background 0.3s; 
 }
 
+nav ul li a:hover {
+    background-color: #1abc9c; 
+}
 
-
-
-footer{
-    background-color: gray;
+/* FOOTER */
+footer {
+    background-color: #2c3e50;
     color: white;
-    padding: 50px;
-    border-top: 1px solid #eded;
-    margin-top: 15px;
+    padding: 40px;
+    margin-top: 40px;
     text-align: center;
-    clear: both;
-    float: none;
 }
