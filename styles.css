@@ -169,6 +169,67 @@ blockquote p{
     padding: 16px;
 }
 
+/*Tuotteet osuudet*/
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.product-card{
+  flex: 1 1 250px;
+  max-width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: white;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+
+.product-title {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+
+.product-description {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.product-price {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+
+.product-button {
+    margin-top: 0.75rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.product-button:hover {
+    background-color: #005fa3;
+}
+
+
+
+
+
 /*Footer osuudet*/
 footer{
     background-color: oklch(25.41% 0.04872 263.199);
